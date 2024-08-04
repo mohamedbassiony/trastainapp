@@ -2,7 +2,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/w")
+@app.get("/")
 def welcome():
     return {
         "message": "Hello World!"
