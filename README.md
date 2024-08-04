@@ -14,17 +14,17 @@ Trastain is a multimodal LLM implementation application for sustainable travel.
 1) Download and install MiniConda From [here](https://docs.anaconda.com/free/miniconda/#quick-command-line-install)
 2) Create a new environment using the following command:
 ```bash
-$ conda create -n trastain python=3.8
+$ conda create -n trastainapp python=3.8
 ```
 
 Another way to create a new environment is by using the following command:
 ```bash
-$ conda create --name trastain python=3.8
+$ conda create --name trastainapp python=3.8
 ```
 
 3) Activate the environment:
 ```bash
-$ conda activate trastain
+$ conda activate trastainapp
 ```
 
 ### (Optional) work on powershell environment
@@ -36,12 +36,12 @@ $ pip install virtualenv
 
 2) Create a new environment using the following command:
 ```bash
-$ python -m venv trastain
+$ python -m venv trastainapp
 ```
 
 3) Activate the environment:
 ```bash
-$ .\trastain\Scripts\Activate.ps1
+$ .\trastainapp\Scripts\Activate.ps1
 ```
 
 ### (Optional) Setup your command line for better readability
