@@ -2,7 +2,8 @@
 
 ## Gemini API Developer Competition.
 
-Trastain is a multimodal LLM implementation application for sustainable travel.
+Trastain is an innovative application designed to promote sustainable travel through the power of Gemini multimodal (LLMs) connected to a Firebase database to create embeddings. It utilizes FastAPI to get user questions and return efficient and accurate search functionality.
+
 
 
 ## Requirements
