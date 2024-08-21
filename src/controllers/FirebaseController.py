@@ -1,11 +1,14 @@
 from .BaseController import BaseController
+from helpers import get_settings
 from firebase_admin import credentials, firestore, initialize_app
 import os
 
 class FirebaseController(BaseController):
     def __init__(self):
         super().__init__()
-        cred = credentials.Certificate(os.getenv('FIREBASE_CREDENTIALS_PATH'))
+        # cred = credentials.Certificate(r'E:\Latest projects\trastainapp\src\trastain-1cec1-firebase-adminsdk-sy7pz-78b020ff81.json')
+        settings = get_settings()
+        cred = credentials.Certificate(settings.FIREBASE_CREDENTIALS_PATH)
         initialize_app(cred)
         self.db = firestore.client()
 
